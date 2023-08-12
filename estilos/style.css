@@ -35,7 +35,7 @@ section#login{
     overflow: hidden;  /* Tudo que estiver fora da borda vai ficar escondido */
 
     background-color: white;
-    width: 250px; /* Largura da tela do celular */
+    width: 250.9px; /* Largura da tela do celular */
     height: 500px;  /* Altura da tela do celular */
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -56,4 +56,14 @@ section#login > div#imagem{
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    
 }
