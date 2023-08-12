@@ -39,6 +39,10 @@ section#login{
     height: 500px;  /* Altura da tela do celular */
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    /* Animação */
+    transition: width .3s, height .3s;
+    transition-timing-function: ease; /* mais suavel a animação */
 }
 
 section#login > div#imagem{
